@@ -1,0 +1,17 @@
+include: base.yaml
+
+compatible: "zephyr,dhara"
+
+description: "Dahra nand flash translation layer"
+
+properties:
+  partition:
+    type: phandle
+    required: true
+    description: A reference to the dhara system's partition.
+
+  page-size:
+    type: int
+    required: true
+    description: Block size for writing to the nand flash device.
+

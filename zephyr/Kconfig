@@ -1,0 +1,6 @@
+config DHARA
+	bool "Dhara Nand flash translation module"
+
+module = DHARA
+module-str = Dhara logging module
+source "subsys/logging/Kconfig.template.log_config"

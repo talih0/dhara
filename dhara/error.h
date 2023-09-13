@@ -17,6 +17,8 @@
 #ifndef DHARA_ERROR_H_
 #define DHARA_ERROR_H_
 
+#include <stdint.h>
+
 typedef enum {
 	DHARA_E_NONE = 0,
 	DHARA_E_BAD_BLOCK,
